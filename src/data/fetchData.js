@@ -63,4 +63,6 @@ async function getJob(id) {
   return null;
 }
 
-export { getJobs, getJob };
+const api = { getJobs, getJob };
+
+export default api;
