@@ -63,4 +63,4 @@ async function getJob(id) {
   return null;
 }
 
-export default { getJobs, getJob };
+export { getJobs, getJob };
